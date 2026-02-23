@@ -1,0 +1,10 @@
+name = "overlap_rigidity_dev"
+version = "0.1.0"
+defaultTargets = ["overlap_rigidity_dev"]
+
+[[lean_lib]]
+name = "OverlapRigidityDev"
+
+[[lean_exe]]
+name = "overlap_rigidity_dev"
+root = "Main"
