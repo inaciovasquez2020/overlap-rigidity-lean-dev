@@ -14,5 +14,5 @@ jobs:
 
       - uses: leanprover/lean-action@v1
         with:
-          lake_update: true
+          auto-config: true
           build: true
