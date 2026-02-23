@@ -1,4 +1,6 @@
-name = "overlap_rigidity_dev"
+name = "overlap_rigidity_lean_dev"
+version = "0.1.0"
 
 [[lean_lib]]
 name = "OverlapRigidityDev"
+roots = ["OverlapRigidityDev"]
