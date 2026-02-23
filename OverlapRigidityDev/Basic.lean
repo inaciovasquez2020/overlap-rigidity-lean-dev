@@ -1,5 +1,3 @@
 namespace OverlapRigidityDev
-
-theorem sanity : True := trivial
-
+def hello : Nat := 1
 end OverlapRigidityDev

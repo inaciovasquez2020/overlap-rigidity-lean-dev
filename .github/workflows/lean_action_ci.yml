@@ -1,17 +1,14 @@
 name: Lean Action CI
-
 on:
   push:
     branches: [ main ]
   pull_request:
   workflow_dispatch:
-
 jobs:
   lean:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: leanprover/lean-action@v1
         with:
           auto-config: true
